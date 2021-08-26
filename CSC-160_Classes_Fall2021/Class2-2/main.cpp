@@ -1,7 +1,6 @@
 // Program for averaging 3 numbers
 #include <iostream>
 
-
 int main()
 {
 	// Went with the 3 numbers as the assumption of whole
