@@ -28,7 +28,7 @@ int main()
 	b = y1 - (m * x1);
 
 	// Outputting the results for the user
-	std::cout << "For the points (" << x1 << "," << y1 << ") and (" << x2 << "," << y2 << "), the slope is m=" << m << ". The equation is y=" << m << "x+" << b << ".\n\n";
+	std::cout << "For the points (" << x1 << "," << y1 << ") and (" << x2 << "," << y2 << "), the slope is m=" << m << ". The equation is y=" << m << "x+" << b << "\n";
 
 	// Exiting the program
 	return 0;
