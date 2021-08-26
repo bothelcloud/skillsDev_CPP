@@ -4,7 +4,7 @@
 int main()
 {
 	// Declaring the variables for use in my program
-	double x1, y1, x2, y2, m;
+	double x1, y1, x2, y2, m, b;
 
 	// Introducing the user to the program
 	std::cout << "Hello, welcome to a program to find the slope of a line.\n\n";
@@ -23,9 +23,12 @@ int main()
 
 	// Calculating the slope of the line
 	m = (y2 - y1) / (x2 - x1);
+	
+	// Gathering b to allow equation output for the line
+	b = y1 - (m * x1);
 
 	// Outputting the results for the user
-	std::cout << "For the points (" << x1 << "," << y1 << ") and (" << x2 << "," << y2 << "), the slope is m=" << m << "\n\n";
+	std::cout << "For the points (" << x1 << "," << y1 << ") and (" << x2 << "," << y2 << "), the slope is m=" << m << ". The equation is y=" << m << "x+" << b << ".\n\n";
 
 	// Exiting the program
 	return 0;
