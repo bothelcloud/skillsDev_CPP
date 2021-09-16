@@ -1,0 +1,2 @@
+# Notes on This Take of the Homework
+This approach utilizes an OOP class definition for the solution generation with quadratics intead of working at it straight on in the main.cpp file statically. The idea being for low code maintenance and reuse. However, it appears Clang on Replit is not implementing some of the base classes in the same methods as Windows compilers for C++ are. Therefore this works perfectly when compiling in Visual Studio on Windows, but not on Clang in Replit. User discretion is advised here.
