@@ -18,6 +18,3 @@
 18
 19
 20
-
-Mean (average) is 10.5
-Standard deviation is 5.76628

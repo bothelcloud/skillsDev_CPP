@@ -26,6 +26,8 @@ int main()
 		{
 			valuesCount++;
 			
+			// This segment here deals with the initial value input and continual resizing of the array to accomodate all the values
+			// This is working completely in the addition only method, but a reverse procedure should be good for deleting values from an array
 			if (valuesCount == 1)
 			{
 				fileValues = new double[valuesCount];
