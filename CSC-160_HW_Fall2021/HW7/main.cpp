@@ -1,3 +1,4 @@
+// Program that takes in a varying amount of values from a file and then outputs the average and the standard deviation of the values to a file
 #include <iostream>
 #include <fstream>
 #include <string>
